@@ -1,0 +1,376 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    line-height: 2rem;
+    scroll-behavior: smooth;
+}
+
+/* Tags */
+
+a {
+    text-decoration: none;
+    color: #0a2652;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    float: left;
+    height: 2rem;
+}
+
+/* COMMON TAGS */
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.bg-center {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.heading1 {
+    font-size: 3.1rem;
+    line-height: 5rem;
+}
+
+.heading2 {
+    font-size: 2.2rem;
+    line-height: 8rem;
+}
+
+.heading3 {
+    font-size: 1.4rem;
+    line-height: 3.5rem;
+}
+
+.para {
+    font-size: 1.1rem;
+    line-height: 2rem;
+    font-weight: 300;
+    text-align: left;
+}
+
+.image {
+    width: 30%;
+}
+
+.message-width {
+    width: 50%;
+}
+
+.space-evenly {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo {
+    width: 80%;
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* # HOME */
+
+#home {
+    width: 100vw;
+    height: 97vh;
+    background-color: #396EB0;
+    z-index: -1;
+    display: flex;
+    place-items: center;
+    position: relative;
+}
+
+.bg-mac {
+    margin: auto;
+    display: block;
+    width: 70vw;
+    position: absolute;
+    z-index: 0;
+}
+
+.bg-ipad {
+    display: none;
+}
+
+.bg-iphone {
+    display: none;
+}
+
+.head-message {
+    color: #c0d9ff;
+    margin: auto;
+    width: 64vw;
+    height: 35vw;
+    top: 7vh;
+}
+
+/*  MENU */
+
+#menu {
+    width: 100vw;
+    height: 7vh;
+    background-color: #011636;
+    position: absolute;
+    bottom: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar {
+    margin: 7px auto;
+    width: 90%;
+    height: 5vh;
+}
+
+.navbar-logo {
+    padding: 4px;
+    font-size: 1.7rem;
+    border-radius: 10px;
+}
+
+.navbar-logo:hover {
+    color: #0c244a;
+    background-color: #c0d9ff;
+    border-radius: 10px;
+    opacity: 8;
+    transition: 0.8s;
+}
+
+.navbar-item {
+    padding: 9px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+}
+
+.navbar-item:hover {
+    color: #0c244a;
+    background-color: #c0d9ff;
+    border-radius: 10px;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+/* # INTRODUCTION */
+
+#introduction {
+    width: 100vw;
+    height: 100vh;
+    background-color: #0c244a;
+}
+
+.introduction-message {
+    color: #c0d9ff;
+}
+
+/* # CAREER OBJECTIVE */
+
+#career-objective {
+    width: 100vw;
+    height: 100vh;
+    background-color: #c0d9ff;
+}
+
+.career-objective-message {
+    color: #0c244a;
+}
+
+/* # PROJECTS */
+
+#projects {
+    width: 100vw;
+    height: 100vh;
+    background-color: #0c244a;
+}
+
+.projects-message {
+    color: #c0d9ff;
+}
+
+/* # EDUCATION */
+
+#education {
+    width: 100vw;
+    height: 100vh;
+    background-color: #c0d9ff;
+}
+
+.education-message {
+    color: #0c244a;
+}
+
+/* # TECHNICAL SKILLS */
+
+#technical-skills {
+    width: 100vw;
+    height: 100vh;
+    background-color: #0c244a;
+}
+
+.technical-skills-message {
+    color: #c0d9ff;
+}
+
+/* # IDES-SOFTWARE */
+
+#ides-software {
+    width: 100vw;
+    height: 100vh;
+    background-color: #c0d9ff;
+}
+
+.ides-software-message {
+    color: #0c244a;
+}
+
+/* # CONTACT */
+
+#contact {
+    width: 100vw;
+    height: 100vh;
+    background-color: #0c244a;
+}
+
+.contact-message {
+    color: #c0d9ff;
+}
+
+@media (max-width: 1100px) and (min-width: 500px) {
+
+    /* COMMON CLASS */
+
+    .heading1 {
+        font-size: 3.5rem;
+        line-height: 6rem;
+    }
+    
+    .heading2 {
+        font-size: 2.4rem;
+        line-height: 4rem;
+    }
+    
+    .heading3 {
+        font-size: 1.6rem;
+        line-height: 3rem;
+    }
+    
+    .para {
+        font-size: 1.8rem;
+        line-height: 2.7rem;
+    }
+
+    .image {
+        width: 50%;
+        height: 40%;
+    }
+
+    .message-width {
+        width: 80%;
+        height: 60%;
+    }
+
+    /* # HOME */
+
+    .bg-mac {
+        display: none;
+    }
+    
+    .bg-ipad {
+    margin: auto;
+    display: block;
+    width: 70vw;
+    position: absolute;
+    z-index: 0;
+    }
+
+    .head-message {
+        width: 60vw;
+        height: 80vw;
+    }
+
+    /* # MENU */
+    
+    #menu {
+        height: 5vh;
+    }
+
+}
+
+@media (max-width: 750px) {
+
+    /* COMMON CLASS */
+
+    .heading1 {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    
+    .heading2 {
+        font-size: 1.5rem;
+        line-height: 3rem;
+    }
+    
+    .heading3 {
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+    }
+    
+    .para {
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+    }
+    
+    .image {
+        width: 50%;
+        height: 25%;
+    }
+
+    .message-width {
+        width: 80%;
+        height: 60%;
+    }
+
+    /* # HOME */
+
+    .bg-mac {
+        display: none;
+    }
+    
+    .bg-ipad {
+        display: none;
+    }
+    
+    .bg-iphone {
+    margin: auto;
+    display: block;
+    width: 70vw;
+    position: absolute;
+    z-index: 0;
+    }
+
+    .head-message {
+        width: 63vw;
+        height: 140vw;
+    }
+
+    /* # MENU */
+    
+    #menu {
+        height: 5vh;
+    }
+
+}
